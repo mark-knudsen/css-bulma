@@ -1,3 +1,14 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
 
+$primary-Color: rgb(0, 162, 255); // variables
+
+nav{
+    background-color: $primary-Color;
+}
+
+h1{
+    $primary-color: rgb(10, 72, 143); // shadowing
+    color: $primary-Color;
+}
+
